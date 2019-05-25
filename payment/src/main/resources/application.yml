@@ -1,0 +1,12 @@
+server:
+  port: 8084
+  servlet.context-path: /payment
+
+
+management:
+  endpoints:
+    web:
+      base-path: /sys
+      cors:
+        allowed-origins: '*'
+        allowed-methods: GET

@@ -1,0 +1,11 @@
+server:
+  port: 8083
+  servlet.context-path: /delivery
+
+management:
+  endpoints:
+    web:
+      base-path: /sys
+      cors:
+        allowed-origins: '*'
+        allowed-methods: GET
